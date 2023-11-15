@@ -28,15 +28,15 @@ void main()
 
     RIA.addr0 = XRAM_TILE;
     RIA.step0 = 1;
-    // draw tile 1
+    // draw tile 0
     for (i = 0; i < 32; i++) {
         RIA.rw0 = WHITE;
     }
-    // draw tile 2
+    // draw tile 1
     for (i = 0; i < 32; i++) {
         RIA.rw0 = GRAY;
     }
-    // draw tile 3
+    // draw tile 2
     for (i = 0; i < 32; i++) {
         RIA.rw0 = RED;
     }
